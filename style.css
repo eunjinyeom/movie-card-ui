@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    height: 100vh;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    height: 600px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.card > .info {
+    
+    padding-top: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.card h4 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+   }
+
+.card p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+
+.link_btn {
+    margin-bottom: 16px;
+    display: block;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    color: black;
+}
+
+.link_btn:hover {
+    background: lightgray;
+}
+
+/* section { 
+    /* outline: 2px solid red; */
+    width: 1288px;
+    position: absolute;
+    /* 수평 중앙 정렬 = 50% - 크기 1/2 */
+    left: 50%;
+    margin-left: calc(-1288px / 2);
+    /* 수직 중앙 정렬
+    top: 50%; 
+    margin-top: calc(-610px / 2); 
+    */
+  /* }
+  
